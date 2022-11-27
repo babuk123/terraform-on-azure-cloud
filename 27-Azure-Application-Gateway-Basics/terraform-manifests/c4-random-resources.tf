@@ -1,5 +1,5 @@
 # Random String Resource
-resource "random_string" "myrandom" {
+resource "number" "myrandom" {
   length = 6
   upper = false 
   special = false
